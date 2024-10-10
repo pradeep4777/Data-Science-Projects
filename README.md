@@ -1,94 +1,13 @@
-<h1>🚀 Pradeep Yeole's Data Science and Machine Learning Projects 🚀</h1>
-<p>Welcome to my repository showcasing various projects in Data Science and Machine Learning. Each project includes detailed explanations, code, and results. Feel free to explore!</p>
-<h2>📂 Projects Overview</h2>
-<ol>
-  <li><a href="#car-price-prediction">Car Price Prediction</a></li>
-  <li><a href="#twitter-sentiment-analysis">Twitter Sentiment Analysis</a></li>
-  <li><a href="#credit-card-fraud-detection">Credit Card Fraud Detection</a></li>
-</ol>
+<h1>🚀 Pradeep Yeole's Data Science and Machine Learning Projects 🚀</h1> <p>Welcome! This repository contains a collection of my Data Science and Machine Learning projects, showcasing diverse applications and methodologies. Each project includes detailed code, explanations, and results for you to explore and learn. Dive in!</p> <h2>📂 Projects Overview</h2> <ol> <li><a href="#car-price-prediction">Car Price Prediction</a></li> <li><a href="#twitter-sentiment-analysis">Twitter Sentiment Analysis</a></li> <li><a href="#credit-card-fraud-detection">Credit Card Fraud Detection</a></li> <li><a href="#diabetes-prediction">Diabetes Prediction</a></li> <li><a href="#face-recognition-system">Face Recognition System</a></li> </ol>
 
-<h2 id="car-price-prediction">Car Price Prediction</h2>
-<h3>Description</h3>
-<p>A machine learning model to predict the selling price of cars based on features like year, present price, kilometers driven, fuel type, and more.</p>
-<h3>Tech Stack</h3>
-<ul>
-  <li>Python</li>
-  <li>Pandas</li>
-  <li>NumPy</li>
-  <li>Scikit-Learn</li>
-  <li>Matplotlib</li>
-  <li>Seaborn</li>
-</ul>
-<h3>Methodology</h3>
-<ul>
-  <li>Data Cleaning and Preprocessing</li>
-  <li>Feature Engineering</li>
-  <li>Model Training and Evaluation using Random Forest Regressor</li>
-  <li>Hyperparameter Tuning</li>
-</ul>
-<h3>Results</h3>
-<ul>
-  <li>Mean Squared Error: 0.861</li>
-  <li>R-squared Score: 0.963</li>
-</ul>
-<h3>Files</h3>
-<ul>
-  <li><code>car_price_prediction.ipynb</code>: Jupyter notebook with code and explanations</li>
-  <li><code>car_data.csv</code>: Dataset used for training and testing</li>
-</ul>
-<h2 id="twitter-sentiment-analysis">Twitter Sentiment Analysis</h2>
-<h3>Description</h3>
-<p>A Natural Language Processing (NLP) project to analyze the sentiment of tweets.</p>
-<h3>Tech Stack</h3>
-<ul>
-  <li>Python</li>
-  <li>Pandas</li>
-  <li>NLTK</li>
-  <li>Scikit-Learn</li>
-  <li>Seaborn</li>
-  <li>Matplotlib</li>
-</ul>
-<h3>Methodology</h3>
-<ul>
-  <li>Data Collection and Preprocessing</li>
-  <li>Text Cleaning and Tokenization</li>
-  <li>Sentiment Analysis using NLTK</li>
-  <li>Model Training using Logistic Regression</li>
-</ul>
-<h3>Results</h3>
-<ul>
-  <li>Accuracy: 85%</li>
-</ul>
-<h3>Files</h3>
-<ul>
-  <li><code>twitter_sentiment_analysis.ipynb</code>: Jupyter notebook with code and explanations</li>
-  <li><code>tweets_data.csv</code>: Dataset used for training and testing</li>
-</ul>
-<h2 id="credit-card-fraud-detection">Credit Card Fraud Detection</h2>
-<h3>Description</h3>
-<p>A machine learning project to detect fraudulent credit card transactions.</p>
-<h3>Tech Stack</h3>
-<ul>
-  <li>Python</li>
-  <li>Pandas</li>
-  <li>Scikit-Learn</li>
-  <li>Imbalanced-learn</li>
-  <li>Matplotlib</li>
-  <li>Seaborn</li>
-</ul>
-<h3>Methodology</h3>
-<ul>
-  <li>Data Cleaning and Preprocessing</li>
-  <li>Handling Class Imbalance using Random Over Sampler</li>
-  <li>Model Training using Logistic Regression</li>
-</ul>
-<h3>Results</h3>
-<ul>
-  <li>Accuracy: 94.94%</li>
-</ul>
-<h3>Files</h3>
-<ul>
-  <li><code>credit_card_fraud_detection.ipynb</code>: Jupyter notebook with code and explanations</li>
-  <li><code>creditcard.csv</code>: Dataset used for training and testing</li>
-</ul>
+<h2 id="car-price-prediction">Car Price Prediction</h2> <h3>Description</h3> <p>Predicts car selling prices based on features like year, present price, kilometers driven, fuel type, and more.</p> <h3>Tech Stack</h3> <ul> <li>Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn</li> </ul> <h3>Methodology</h3> <ul> <li>Data Cleaning and Preprocessing</li> <li>Feature Engineering and Random Forest Regression</li> <li>Hyperparameter Tuning</li> </ul> <h3>Results</h3> <ul> <li>Mean Squared Error: 0.861</li> <li>R-squared Score: 0.963</li> </ul>
+
+<h2 id="twitter-sentiment-analysis">Twitter Sentiment Analysis</h2> <h3>Description</h3> <p>Analyzes tweet sentiment through NLP techniques.</p> <h3>Tech Stack</h3> <ul> <li>Python, Pandas, NLTK, Scikit-Learn, Matplotlib, Seaborn</li> </ul> <h3>Methodology</h3> <ul> <li>Text Preprocessing and Sentiment Classification</li> <li>Logistic Regression for Sentiment Prediction</li> </ul> <h3>Results</h3> <ul> <li>Accuracy: 85%</li> </ul>
+
+<h2 id="credit-card-fraud-detection">Credit Card Fraud Detection</h2> <h3>Description</h3> <p>Detects fraudulent credit card transactions using machine learning.</p> <h3>Tech Stack</h3> <ul> <li>Python, Pandas, Scikit-Learn, Imbalanced-learn, Matplotlib, Seaborn</li> </ul> <h3>Methodology</h3> <ul> <li>Handling Class Imbalance and Logistic Regression Model</li> </ul> <h3>Results</h3> <ul> <li>Accuracy: 94.94%</li> </ul>
+
+<h2 id="diabetes-prediction">Diabetes Prediction</h2> <h3>Description</h3> <p>Predicts the likelihood of diabetes using various health metrics.</p> <h3>Tech Stack</h3> <ul> <li>Python, Pandas, Scikit-Learn, Matplotlib</li> </ul> <h3>Methodology</h3> <ul> <li>Data Preprocessing and Feature Scaling</li> <li>Logistic Regression and Decision Tree Classifier</li> </ul> <h3>Results</h3> <ul> <li>Accuracy: 89%</li> </ul>
+
+<h2 id="face-recognition-system">Face Recognition System</h2> <h3>Description</h3> <p>A deep learning project to recognize faces with high accuracy.</p> <h3>Tech Stack</h3> <ul> <li>Python, OpenCV, TensorFlow, Keras</li> </ul> <h3>Methodology</h3> <ul> <li>Image Preprocessing and Convolutional Neural Network (CNN)</li> </ul> <h3>Results</h3> <ul> <li>Accuracy: 92%</li> </ul>
+
 Feel free to contribute, raise issues, or share feedback. Happy coding! 🚀
